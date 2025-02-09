@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.darkh1{
+    color:white;
+}
+.body{
+    padding:10px;
+    margin:auto;
+    background-color:#94D1BE;
+    text-align: center;
+}
+.darkbody{
+    padding:10px;
+    margin:auto;
+    background-color:#3B413C;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-board{
+    height:60vmin;
+    width:60vmin;
+    align-items:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    background-color: #DAF0EE;
+    color:#1F271B;
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font-size: 8vmin;
+}
+.darkbox{
+    background-color: #9DB5B2;
+    color:#344929;
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font-size: 8vmin;
+}
+.reset{
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color:#DAF0EE;
+    border-radius: 1rem;
+    border: none;
+    color:#1F271B;
+}
+.darkreset{
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color:#9DB5B2;
+    border-radius: 1rem;
+    border: none;
+    color:#344929;
+}
+.message{
+    color: #1F271B;
+    font-size: 8vmin;
+}
+.darkmessage{
+    color: white;
+    font-size:8vmin;
+}
+.hide{
+    display: none;
+}
